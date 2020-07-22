@@ -1,0 +1,36 @@
+{
+    "development": {
+        "username": "root",
+        "password": "123456",
+        "database": "demo",
+        "host": "127.0.0.1",
+        "dialect": "mysql",
+        "timezone": "+08:00",
+        "define": {
+            "timestamps": false,
+            "charset": "utf8mb4",
+            "dialectOptions": {
+                "collate": "utf8mb4_croatian_ci"
+            }
+        },
+        "pool": {
+            "max": 5,
+            "min": 0,
+            "idle": 10000
+        }
+    },
+    "test": {
+        "username": "root",
+        "password": 123456,
+        "database": "database_test",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "production": {
+        "username": "root",
+        "password": 123456,
+        "database": "database_production",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    }
+}
