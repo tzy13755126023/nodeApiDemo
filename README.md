@@ -1,3 +1,5 @@
+--------- node + express + mysql   模板  ---------
+
 {
     //重启的命令，默认是 rs
     "restartable": "rs",
